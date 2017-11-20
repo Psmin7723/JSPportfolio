@@ -1,0 +1,518 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+/* css reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.readonly{text-indent:-9999px;display:none;}
+
+body [type=checkbox] 
+{
+	display:none;
+}
+a 
+{
+	text-decoration:none;
+	color:#000;
+}
+/* main css */
+
+.row2
+{
+	padding:0 15px;
+}
+
+/*singup css*/
+
+.shadow-box
+{
+	margin:30px 0;
+	border: 1px solid #ccc;
+	border-radius:5px;
+	
+}
+.shadow-box .H3Bttm
+{
+	margin:20px;
+	color:#242424;
+	letter-spacing:-0.8px;
+	font-size:14px;
+	border-bottom:2px solid #ffc7c7;
+	display:inline-block;
+	position:relative;
+	font-weight:700;
+	line-height:1.57;
+}
+.shadow-box .textarea1
+{
+	width:95%;
+	display:block;
+	margin: 0 auto;
+	padding: 10px 0;
+	border: none;
+	background-color:#f6f6f6;
+	color:#959595;
+	height:150px;
+	font-size:11px;
+	letter-spacing:-0.8px;
+	
+}
+
+.shadow-box .checkbox
+{
+	text-align:center;
+	padding:10px 0;
+	cursor:pointer;	
+	
+}
+.shadow-box .inputcheck+label
+{
+	color:#959595;
+	font-size:12px;
+	line-height:1.57;
+	font-weight:700;
+}
+.shadow-box .inputcheck:checked+label{
+	color:#242424;
+	font-size:12px;
+	line-height:1.57;
+	font-weight:700;
+}
+.shadow-box .inputcheck2+label
+{
+	color:#959595;
+	font-size:12px;
+	line-height:1.57;
+	font-weight:700;
+	
+}
+.shadow-box .inputcheck2:checked+label{
+	color:#242424;
+	font-size:12px;
+	line-height:1.57;
+	font-weight:700;
+}
+.checkbox input[type=checkbox] 
+{ 
+	display: none; 
+}
+.iconCheck
+{
+	font-size:15px;
+}
+
+/***************************	약관css end	***************************/
+
+/* info css */
+.shadow-box2
+{
+	clear:both;
+	border: 1px solid #ccc;
+	border-radius:5px;
+	overflow:hidden;
+}
+
+.shadow-box2 .section-header
+{
+	padding: 20px;
+}
+.shadow-box2 .section-header h3
+{
+	color:#242424;
+	letter-spacing:-0.8px;
+	font-size:14px;
+	border-bottom:2px solid #ffc7c7;
+	display:inline-block;
+	position:relative;
+	font-weight:700;
+	line-height:1.57;
+}
+.shadow-box2 > ul > li
+{
+	border-bottom: 1px solid #c8c8c8;
+	height:45px;
+	font-size:12px;
+	font-weight:700;
+	line-height:45px;
+}
+.shadow-box2 > ul > li:nth-child(2n+1)
+{
+	background:#f6f6f6;
+}
+/***** id pw pw-check name*****/
+.shadow-box2 .section-body .id
+{
+	border-top: 1px solid #c8c8c8;
+	
+}
+.shadow-box2 > ul > li.gender-check .radio
+{
+	display:inline-block;
+	margin-right:10px;
+	padding-left:10px;
+}
+.shadow-box2 > ul > li input[type="text"], .shadow-box2 > ul > li input[type="password"]
+{
+	width:180px;
+	height:26px;
+	line-height:26px;
+	border:1px solid #c8c8c8;
+	border-radius:0;
+	margin-left:30px;
+}
+/***** gender *****/
+.radio input[type=radio] 
+{ 
+	display: none; 
+}
+.shadow-box2 > ul > li.gender-check .radio .radinput+label
+{
+	color:#959595;
+	font-size:12px;
+	line-height:26px;
+	font-weight:700;
+	height:26px;
+
+}
+ .shadow-box2 > ul > li.gender-check .radio .radinput:checked+label
+ {
+	color:#242424;
+	font-size:12px;
+	line-height:26px;
+	font-weight:700;
+	height:26px;
+ }
+ /***** cellphone phone*****/
+ .inputselect
+ {
+	height:26px;
+ }
+ .inputselect, .inputphone input[type="text"]
+{
+	width:80px!important;
+	margin-left:0!important;
+	
+}
+.inputphone
+{
+	padding-left:45px;
+	display:inline-block;
+	
+}
+.inputphone .s1
+{
+	display:inline-block;
+	
+}
+.sns-check-box
+{
+	display:inline-block;
+	padding-left:30px;
+	
+}
+.checkbox-input+label
+{
+	color:#959595;
+	font-size:12px;
+	line-height:26px;
+	font-weight:700;
+	height:26px;
+	cursor:pointer;
+}
+.checkbox-input:checked+label
+ {
+	color:#242424;
+	font-size:12px;
+	line-height:26px;
+	font-weight:700;
+	height:26px;
+ }
+ /***** e-mail *****/
+.mail-input-box input[type="text"]
+{
+	width:100px!important;
+	margin-left:0!important;
+	
+}
+.mail-input-box
+{
+	padding-left:30px;
+	display:inline-block;
+	
+}
+.mail-input-box .s1
+{
+	display:inline-block;
+	
+}
+.mail-check-box
+{
+	display:inline-block;
+	padding-left:30px;
+	
+}
+.checkbox-input2+label
+{
+	color:#959595;
+	font-size:12px;
+	line-height:26px;
+	font-weight:700;
+	height:26px;
+	cursor:pointer;
+}
+.checkbox-input2:checked+label
+ {
+	color:#242424;
+	font-size:12px;
+	line-height:26px;
+	font-weight:700;
+	height:26px;
+	
+ }
+ .auto-mail
+ {
+	 color:#959595;
+	 height:26px;
+	
+ }
+ /***** address *****/
+ .address
+ {
+	height:120px !important;
+ }
+ .address-input-box
+ {
+	 display:inline-block;
+	 padding-left:30px;
+	
+ }
+    .address-input-box p
+ {
+	 display:inline-block;
+ }
+ .address-input-box input[type="text"]
+ {
+	width:80px!important;
+	margin-left:0!important; 
+ }
+
+ .zipbutton 
+ {
+	 height:28px;
+	 line-height:28px;
+	 padding:0 13px;
+	 background-color:#252c4f;
+	 display:inline-block;
+	 color:#fff;
+	 cursor:pointer;
+	 margin-left:15px;
+	 border-radius:3px;
+ }
+  .address-input-box2
+ {
+	 margin-top:-10px;  
+ }
+
+  .address-input-box2 input[type="text"]
+ {
+	width:350px!important;
+	
+ }
+ .firstbox
+ {
+	 display:block;
+ }
+ .seconbox
+ {
+	 display:block;
+ }
+ /***** birth-day physical*****/
+ .birthbox
+ {
+	 padding-left:20px;
+ }
+ .physical-box
+ {
+	 padding-left:20px;
+ }
+ .item
+ {
+	 display:inline-block;
+	 padding-left:10px;
+ }
+   .item input[type="text"]
+ {
+	width:80px!important;
+	margin-left:0!important;
+	text-align:center;
+	padding-left:30px;
+ }
+ /***** join *****/
+ .join
+ {
+	 width:200px;
+	 height:50px;
+	 background-color:#252c4f;
+	 cursor:pointer;
+	 margin:20px auto;
+	 line-height:50px;
+	 border-radius:5px;
+ }
+  .join p
+ {
+	 font-size:20px;
+	 font-weight:700;
+	 color:#fff;
+	 text-align:center;
+ }
+ 
+  /*****모바일*****/
+  @media (max-width:767px) 
+ {
+	 .shadow-box2 > ul > li
+	{
+		height:100px;	
+	
+	}
+	.cell-phone
+	{
+		height:130px !important;
+	}
+	.e-mail
+	{
+		height:130px !important;
+	}
+	.address
+	{
+		height:165px !important;
+	}
+	.join p
+	{
+		height:80px;
+	}
+	.shadow-box2 > ul > li input[type="text"], .shadow-box2 > ul > li input[type="password"]
+	{
+		padding-left:0;
+		margin-left:0;
+	}
+	.mail-input-box
+	{
+		padding-left:0;
+	}
+	.inputphone
+	{
+		padding-left:15px;
+	}
+	.address-input-box
+	{
+		padding-left:0;
+	}
+	.address-input-box2
+	{
+		padding-left:0;
+		
+	}
+	.address-input-box3
+	{
+		padding-left:0;
+	}
+	.address-input-box2 input[type="text"]
+	{
+		padding-left:0 !important;
+	}
+	.birthbox
+	{
+		padding-left:0;
+	}
+	.item
+	{
+		padding-left:0;
+	}
+	.physical-box
+	{
+		padding-left:0;
+	}
+	.checkbox label, .radio label
+	{
+		padding-left:0;
+	}
+	.radio
+	{
+		padding-left:0 !important;
+	}
+	.sns-check-box
+	{
+		padding-left:0;
+	}
+	.mail-check-box
+	{
+		padding-left:0;
+	}
+
+	.inputselect, .inputphone input[type="text"]
+	{
+		width:60px!important;
+		margin-left:0!important;
+	}
+	.shadow-box2 > ul > li input[type="text"]
+	{
+		width:150px;
+	}
+	.shadow-box2 > ul > li input[type="password"]
+	{
+		width:200px;
+	}
+	 .address-input-box2 input[type="text"]
+	{
+		width:300px!important;
+	
+	}
+	 .item input[type="text"]
+	{
+		width:60px!important;
+	
+	}
+	
+	
+ }
